@@ -16,7 +16,7 @@ from ftplib import FTP
 import ftplib
 from shutil import copy2
 import win32api
-
+import base64
 import netifaces
 # ------------------- Logging ----------------------- #
 logger = logging.getLogger(__name__)
